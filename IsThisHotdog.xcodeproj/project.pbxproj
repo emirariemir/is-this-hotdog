@@ -13,6 +13,7 @@
 		2D88395B2A6D4B6F00414C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8839592A6D4B6F00414C88 /* Main.storyboard */; };
 		2D88395D2A6D4B7200414C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D88395C2A6D4B7200414C88 /* Assets.xcassets */; };
 		2D8839602A6D4B7200414C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D88395E2A6D4B7200414C88 /* LaunchScreen.storyboard */; };
+		2D8839682A6D4D0D00414C88 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2D8839672A6D4D0D00414C88 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D88395C2A6D4B7200414C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D88395F2A6D4B7200414C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D8839612A6D4B7200414C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8839672A6D4D0D00414C88 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2D8839592A6D4B6F00414C88 /* Main.storyboard */,
 				2D88395C2A6D4B7200414C88 /* Assets.xcassets */,
 				2D88395E2A6D4B7200414C88 /* LaunchScreen.storyboard */,
+				2D8839672A6D4D0D00414C88 /* Inceptionv3.mlmodel */,
 				2D8839612A6D4B7200414C88 /* Info.plist */,
 			);
 			path = IsThisHotdog;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8839582A6D4B6F00414C88 /* ViewController.swift in Sources */,
+				2D8839682A6D4D0D00414C88 /* Inceptionv3.mlmodel in Sources */,
 				2D8839542A6D4B6F00414C88 /* AppDelegate.swift in Sources */,
 				2D8839562A6D4B6F00414C88 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,11 +294,12 @@
 				DEVELOPMENT_TEAM = 4FU7LRDQZ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IsThisHotdog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Is This Hotdog?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +323,12 @@
 				DEVELOPMENT_TEAM = 4FU7LRDQZ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IsThisHotdog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Is This Hotdog?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
